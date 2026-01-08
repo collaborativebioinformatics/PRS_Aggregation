@@ -5,12 +5,12 @@ Polygenic Risk Aggregation in common diseases and phenotypes
 
 | Name | Email | ORCID | Institution |
 |------|-------|-------|-------------|
-| Ashok Kumar Sharma | ashoks773@gmail.com | https://orcid.org/0000-0002-2264-7628 | Cedars-Sinai Medical Center, Los Angeles, CA |
+| Ashok Kumar Sharma | ashoks773@gmail.com | https://orcid.org/0000-0002-2264-7628 | Cedars-Sinai Medical Center, Los Angeles |
 | Dmitriy Ivkov | Divkov@umich.edu | https://orcid.org/0009-0008-4536-3274 | — |
-| Jasmine Baker | jasmine.baker@bcm.edu | https://orcid.org/0000-0001-7545-6086 | Baylor College of Medicine, Houston, Texas |
+| Jasmine Baker | jasmine.baker@bcm.edu | https://orcid.org/0000-0001-7545-6086 | Baylor College of Medicine, Houston |
 | Mengying Hu | meh251@pitt.edu | https://orcid.org/0000-0003-4827-3051 | — |
-| Qianqian Liang | qil57@pitt.edu | https://orcid.org/0000-0002-1737-5031 | Population Health Sciences, Geisinger, Danville, PA |
-| Shivank Sadasivan | ssadasiv@andrew.cmu.edu | https://orcid.org/0009-0004-4699-2129 | Carnegie Mellon University, Pittsburgh, PA |
+| Qianqian Liang | qil57@pitt.edu | https://orcid.org/0000-0002-1737-5031 | Population Health Sciences, Danville |
+| Shivank Sadasivan | ssadasiv@andrew.cmu.edu | https://orcid.org/0009-0004-4699-2129 | Carnegie Mellon University, Pittsburgh |
 
 ## Introduction
 Polygenic risk scores (PRS) are a powerful approach for predicting an individual’s likelihood of developing a phenotype or disease and have contributed substantially to our understanding of human health. PRS models are typically developed by multiple research groups, and aggregating PRS across ancestry groups represents an important opportunity to better leverage diverse datasets.
