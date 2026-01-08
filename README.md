@@ -12,33 +12,6 @@ Polygenic Risk Aggregation in common diseases and phenotypes
 | Qianqian Liang | qil57@pitt.edu | https://orcid.org/0000-0002-1737-5031 | — |
 | Shivank Sadasivan | ssadasiv@andrew.cmu.edu | https://orcid.org/0009-0004-4699-2129 | — |
 
-## Contributers
-- **Ashok Kumar Sharma**  
-  📧 ashoks773@gmail.com  
-  🆔 ORCID: https://orcid.org/0000-0002-2264-7628  
-  🏛️ Institution: Cedars-Sinai Medical Center  
-
-- **Dmitriy Ivkov**  
-  📧 Divkov@umich.edu  
-  🆔 ORCID: https://orcid.org/0009-0008-4536-3274  
-
-- **Jasmine Baker**  
-  📧 jasmine.baker@bcm.edu  
-  🆔 ORCID: https://orcid.org/0000-0001-7545-6086  
-  🏛️ Institution: Baylor College of Medicine  
-
-- **Mengying Hu**  
-  📧 meh251@pitt.edu  
-  🆔 ORCID: https://orcid.org/0000-0003-4827-3051  
-
-- **Qianqian Liang**  
-  📧 qil57@pitt.edu  
-  🆔 ORCID: https://orcid.org/0000-0002-1737-5031  
-
-- **Shivank Sadasivan**  
-  📧 ssadasiv@andrew.cmu.edu  
-  🆔 ORCID: https://orcid.org/0009-0004-4699-2129
-
 ## Introduction
 Polygenic risk scores (PRS) are a powerful approach for predicting an individual’s likelihood of developing a phenotype or disease and have contributed substantially to our understanding of human health. PRS models are typically developed by multiple research groups, and aggregating PRS across ancestry groups represents an important opportunity to better leverage diverse datasets.
 However, PRS data are often highly heterogeneous. For example, different PRS models may be based on distinct sets of SNPs, and SNP identifiers and formats can vary across resources. To address these challenges, we are developing a pipeline to harmonize PRS datasets across studies and generate a centralized PRS that integrates information from multiple sources.
