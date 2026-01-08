@@ -1,3 +1,18 @@
+"""
+Naive synthetic data generation script - doesn't account for LD, marginal distributions
+
+Method:
+1) Random individual SNP intiialization
+2) rudimentary Gradient Descent toward desired PRS weights
+
+Parameters:
+1) Variant (names)
+2) Number of individuals
+3) H2 Heritability
+4) MAF range
+"""
+
+
 import pandas as pd
 import numpy as np
 import os
