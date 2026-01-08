@@ -6,7 +6,7 @@ Polygenic Risk Aggregation in common diseases and phenotypes
 ## Introduction
 Polygenic risk scores (PRS) are a powerful approach for predicting an individual’s likelihood of developing a phenotype or disease and have contributed substantially to our understanding of human health. PRS models are typically developed by multiple research groups, and aggregating PRS across ancestry groups represents an important opportunity to better leverage diverse datasets.
 However, PRS data are often highly heterogeneous. For example, different PRS models may be based on distinct sets of SNPs, and SNP identifiers and formats can vary across resources. To address these challenges, we are developing a pipeline to harmonize PRS datasets across studies and generate a centralized PRS that integrates information from multiple sources.
-In this work, we utilize the PRS Catalog, which contains PRS models from a wide range of resources, XXX.
+In this work, we utilize the PRS Catalog, which contains PRS models from a wide range of resources. We also generated visualization tools to visualize the overlapping between different scores. We will also zoom into single-nucleotide resolution to visualize the surrounding SNPs. 
 
 ## Goals
 
