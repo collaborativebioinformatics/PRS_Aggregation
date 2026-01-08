@@ -28,5 +28,9 @@ PGS catalog- polygenic score catalog:https://www.pgscatalog.org/
 
 <img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
 
+## Federated Learning / Representation
+<img width="1128" height="633" alt="Screenshot 2026-01-08 at 12 41 09 PM" src="https://github.com/user-attachments/assets/6b59ed8e-de1e-47aa-8bf6-941dc2c11170" />
+
+
 
 ## Results 
