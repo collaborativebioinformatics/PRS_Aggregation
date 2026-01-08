@@ -22,6 +22,9 @@ PGS catalog- polygenic score catalog:https://www.pgscatalog.org/
 
 <img width="2624" height="1600" alt="Gemini_Generated_Image_7ft1ga7ft1ga7ft1" src="https://github.com/user-attachments/assets/4dfa70f3-2da5-45e3-a58e-907b69c4b147" />
 
-## How it works
+## Methods
+### PRS visualization tool (Mengying/Qianqian)
+<img width="1068" height="561" alt="Screenshot 2026-01-08 at 11 41 16" src="https://github.com/user-attachments/assets/c0c668e8-7580-499f-a8ae-d0eac87d3d3b" />
+
 
 ## Results 
