@@ -25,7 +25,8 @@ PGS catalog- polygenic score catalog:https://www.pgscatalog.org/
 ## Methods
 ### PRS visualization tool (Mengying/Qianqian)
 <img width="1068" height="561" alt="Screenshot 2026-01-08 at 11 41 16" src="https://github.com/user-attachments/assets/c0c668e8-7580-499f-a8ae-d0eac87d3d3b" />
-<img width="804" height="530" alt="upsetplot1" src="https://github.com/user-attachments/assets/c7ffb914-9839-4ede-b3f4-4a433e6aee7b" />
+
+<img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
 
 
 ## Results 
