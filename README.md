@@ -25,9 +25,8 @@ Polygenic Risk Aggregation in common diseases and phenotypes
   🆔 ORCID: https://orcid.org/0000-0002-1737-5031  
 
 - **Shivank Sadasivan**  
-  📧 ssadasiv@andrew.cmu.edu
-  🆔 ORCID: https://orcid.org/0009-0004-4699-2129  
-
+  📧 ssadasiv@andrew.cmu.edu  
+  🆔 ORCID: https://orcid.org/0009-0004-4699-2129
 
 ## Introduction
 Polygenic risk scores (PRS) are a powerful approach for predicting an individual’s likelihood of developing a phenotype or disease and have contributed substantially to our understanding of human health. PRS models are typically developed by multiple research groups, and aggregating PRS across ancestry groups represents an important opportunity to better leverage diverse datasets.
