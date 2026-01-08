@@ -1,5 +1,5 @@
 # PRS_Aggregation
-Polygenic Risk Aggregation in common diseases and phenotypes across databases
+Polygenic Risk Score (PRS) Aggregation in common diseases and phenotypes across databases
 
 ## Overview Diagram
 
@@ -26,7 +26,10 @@ Quantify and visualize overlap among PRS models, supporting assessment of shared
 Lay groundwork for scalable aggregation strategies, specifically exploration of federated learning/representation approaches that can help integrate signals across cohorts or sites without compromising sensitive data.
 
 ## Description
+PRS are widely used to estimate an individual’s genetic predisposition to phenotypes and common diseases. However, PRS models are frequently developed by independent research groups and released through different resources (public and private), leading to significant complications in reusing and aggregating data. Complications typically include: 1) Non-overlapping or partially overlapping SNP sets 2)Inconsistent SNP identifiers (rsIDs vs. chrom:pos vs. internal IDs) 3) Variable formatting (TSV/flat files vs. Hail MatrixTable representations) 4) Divergent allele encoding and genome build conventions 5) Uneven metadata completeness and inconsistent trait definitions. We address these challenges by developing a pipeline that harmonizes PRS datasets across studies and enables the construction of a centralized PRS integrating information from multiple sources. 
 
+The initial implementation focuses on leveraging PGS Catalog (Polygenic Score Catalog) as a primary source of published PRS models and accompanying metadata and 
+GWAS Catalog as a complementary resource. In addition to harmonization and aggregation, the repository includes visual analytics to help users understand how different PRS relate at the model level and at the single-variant level. The overarching outcome is a standardized approach to aggregate different PRS across databases in a way that is transparent, extensible, and suitable for downstream analyses across diverse populations.
 
 ## Methods
 ### PRS visualization tool (Mengying/Qianqian)
