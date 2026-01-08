@@ -5,7 +5,7 @@ Polygenic Risk Aggregation in common diseases and phenotypes
 
 | Name | Email | ORCID | Institution |
 |------|-------|-------|-------------|
-| Ashok Kumar Sharma | ashoks773@gmail.com | https://orcid.org/0000-0002-2264-7628 | Cedars-Sinai Medical Center, Los Angeles |
+| Ashok K. Sharma | ashoks773@gmail.com | https://orcid.org/0000-0002-2264-7628 | Cedars-Sinai Medical Center, LA |
 | Dmitriy Ivkov | Divkov@umich.edu | https://orcid.org/0009-0008-4536-3274 | — |
 | Jasmine Baker | jasmine.baker@bcm.edu | https://orcid.org/0000-0001-7545-6086 | Baylor College of Medicine, Houston |
 | Mengying Hu | meh251@pitt.edu | https://orcid.org/0000-0003-4827-3051 | — |
