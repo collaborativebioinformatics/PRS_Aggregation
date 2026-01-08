@@ -18,6 +18,19 @@ However, PRS data are often highly heterogeneous. For example, different PRS mod
 In this work, we utilize the PRS Catalog, which contains PRS models from a wide range of resources. We also generated visualization tools to visualize the overlapping between different scores. We will also zoom into single-nucleotide resolution to visualize the surrounding SNPs. 
 
 ## Goals
+The project aims to create a practical, reproducible framework for aggregating polygenic risk scores (PRS) across databases, studies, and ancestry groups. 
+
+Specifically, we will:
+
+Aggregate PRS models across resources to produce a centralized, integrated PRS representation for common diseases and phenotypes.
+
+Harmonize heterogeneous PRS inputs (differing SNP sets, identifier conventions, file formats, and metadata schemas) into a consistent, comparable structure.
+
+Enable comparability and quality control, including standardized SNP identifiers, allele alignment checks, coordinate normalization, and consistent weight representation.
+
+Quantify and visualize overlap among PRS models, supporting assessment of shared vs. unique variants and model similarity.
+
+Lay groundwork for scalable aggregation strategies, specifically exploration of federated learning/representation approaches that can help integrate signals across cohorts or sites without compromising sensitive data.
 
 ## Description
 
