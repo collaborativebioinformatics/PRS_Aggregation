@@ -1,5 +1,5 @@
-# PRS_Aggregation
-Polygenic Risk Score (PRS) Aggregation in common diseases and phenotypes across databases
+# PRSAggregator
+Polygenic Risk Score (PRS) Aggregation visualization tool in common diseases and phenotypes across databases
 
 ## Overview Diagram
 
