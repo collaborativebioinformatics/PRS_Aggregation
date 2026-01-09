@@ -1,0 +1,4 @@
+score,n_snps,n_snps_within_known_gene,n_genes_known_gene,n_snps_within_flank,n_genes_within_flank
+PGS000020_hmPOS_GRCh37,7502,3541,2735,5227,7624
+PGS000804_hmPOS_GRCh37,578,342,366,496,1183
+PGS001818_hmPOS_GRCh37,30745,14137,5084,21379,12805
