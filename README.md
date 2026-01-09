@@ -32,60 +32,33 @@ Specifically,our project contains three main part:
 - **PRS Locus Viewer**: Enable an interactive tool to explore of SNPs and genes in genomic context
 - **PRS Federated Presentations**: Establish an representation tool to visualize PRS scores across ancestry and different locations.
 
+## PRS Profiling
 
-## Key Features
+### Motivation
+### Methods
+### Results
+<img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
 
-- SNP-level overlap analysis across multiple PRS  
-- Gene-level overlap analysis  
-- Summary statistics for each PRS  
-- Static visualization with UpSet plots  
-- Interactive genomic exploration (UCSC Genome Browser–like zoom-in view) 
-
-## Goals
-The project aims to create a practical, reproducible framework for aggregating polygenic risk scores (PRS) across databases, studies, and ancestry groups. 
-
-Specifically, we will:
-
-- Aggregate PRS models across resources to produce a centralized, integrated PRS representation for common diseases and phenotypes
-- Harmonize heterogeneous PRS inputs (differing SNP sets, identifier conventions, file formats, and metadata schemas) into a consistent, comparable structure.
-- Enable comparability and quality control, including standardized SNP identifiers, allele alignment checks, coordinate normalization, and consistent weight representation.
-
-- Quantify and visualize overlap among PRS models, supporting assessment of shared vs. unique variants and model similarity.
-
-- Lay groundwork for scalable aggregation strategies, specifically exploration of federated learning/representation approaches that can help integrate signals across cohorts or sites without compromising sensitive data.
-
-
-
-## Description
-PRS are widely used to estimate an individual’s genetic predisposition to phenotypes and common diseases. However, PRS models are frequently developed by independent research groups and released through different resources (public and private), leading to significant complications in reusing and aggregating data. Complications typically include: 1) Non-overlapping or partially overlapping SNP sets 2)Inconsistent SNP identifiers (rsIDs vs. chrom:pos vs. internal IDs) 3) Variable formatting (TSV/flat files vs. Hail MatrixTable representations) 4) Divergent allele encoding and genome build conventions 5) Uneven metadata completeness and inconsistent trait definitions. We address these challenges by developing a pipeline that harmonizes PRS datasets across studies and enables the construction of a centralized PRS integrating information from multiple sources. 
-
-The initial implementation focuses on leveraging PGS Catalog (Polygenic Score Catalog) as a primary source of published PRS models and accompanying metadata and 
-GWAS Catalog as a complementary resource. In addition to harmonization and aggregation, the repository includes visual analytics to help users understand how different PRS relate at the model level and at the single-variant level. The overarching outcome is a standardized approach to aggregate different PRS across databases in a way that is transparent, extensible, and suitable for downstream analyses across diverse populations.
-
-
-## Methods
-### PRS Profiling
 ### PRS Locus Viewer
-## Federated Learning / Representation
 
-
-
-## Results
+### Motivation
+### Methods
+### Results
 
 <img width="1068" height="561" alt="Screenshot 2026-01-08 at 11 41 16" src="https://github.com/user-attachments/assets/c0c668e8-7580-499f-a8ae-d0eac87d3d3b" />
 
+### Federated Learning/Representation
+### Motivation
+### Methods
+### Results
 
-### PRS Locus Viewer
-<img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
-
-## Federated Learning / Representation
 <img width="1153" height="329" alt="Screenshot 2026-01-08 at 12 44 08 PM" src="https://github.com/user-attachments/assets/b0ce0f36-14d5-4184-b004-a5097ec1f406" />
 
 <img width="1128" height="633" alt="Screenshot 2026-01-08 at 12 41 09 PM" src="https://github.com/user-attachments/assets/6b59ed8e-de1e-47aa-8bf6-941dc2c11170" />
 
 
 
-
+## Future directions
 
 
 
