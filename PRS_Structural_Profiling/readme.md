@@ -27,7 +27,7 @@ These summaries provide **critical context** for downstream PRS selection and ag
 ## Input Data
 
 ### PRS score files
-- Harmonized PRS score files downloaded from the **PRS Catalog**
+- Harmonized PRS score files downloaded from the **PGS Catalog** [https://www.pgscatalog.org]
 - Genome build: **GRCh37**
 - SNPs represented in `chr:pos` format
 
