@@ -40,6 +40,11 @@ Specifically,our project contains three main part:
 
 #### input file format
 
+PRS score files downloaded from the **PGS Catalog** [https://www.pgscatalog.org], with Genome build: **GRCh37**
+Each input file **must include** the following columns:
+
+- `hm_chr` — chromosome (numeric, no `chr` prefix)
+- `hm_pos` — base-pair position (GRCh37 / hg19)
 
 #### Example Command to run the pipeline
 
