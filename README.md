@@ -32,7 +32,7 @@ Specifically,our project contains three main part:
 - **PRS Locus Viewer**: Enable an interactive tool to explore of SNPs and genes in genomic context
 - **PRS Federated Representation**: Establish an representation learning approach for PRS scores across ancestry and trait from different studies.
 
-## 1 PRS Profiling
+## 1. PRS Profiling
 Detailed information locates under `/PRS_Structural_Profiling/`
 
 ### Motivation
@@ -87,7 +87,7 @@ We used Type 2 Diabetes as an example and we took 3 PGS scores overall.
 <img width="3000" height="2100" alt="upset_gene" src="https://github.com/user-attachments/assets/05f53a89-5a9a-4a35-9bd8-c2d131563106" />
 
 
-## 2 PRS Locus Viewer
+## 2. PRS Locus Viewer
 
 
 ### Motivation
@@ -103,7 +103,7 @@ A **representation learning framework for Polygenic Risk Scores (PGS)** that ena
 
 The framework:
 
-<img width="1056" height="486" alt="Screenshot 2026-01-09 at 1 41 40 PM" src="https://github.com/user-attachments/assets/3a7243b0-db1e-495d-82dc-54c4c94a3eca" />
+<img width="820" height="434" alt="Screenshot 2026-01-09 at 2 00 38 PM" src="https://github.com/user-attachments/assets/2ddd00bb-17d7-42f7-aa28-a3de3f8c57d4" />
 
 
 - Integrates **heterogeneous PGS scoring files** across ancestries and studies  
