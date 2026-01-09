@@ -8,21 +8,23 @@ The goal of this track is to answer a fundamental question:
 
 ---
 
-## 1. Objective
 
-Different PRSs for the same phenotype are often derived from different studies, populations, and modeling strategies.
-As a result, they may vary substantially in:
+## Why Summarization Comes First
 
-- SNP composition
-- Genomic distribution
-- Gene-level coverage
-- Overlap across scores
+Multiple PRS often exist for the same phenotype, developed by different studies using different cohorts and methods.  
+Although these PRS are often treated as interchangeable, their **underlying variant composition can differ substantially**.
 
-The goal of this module is to **systematically summarize and visualize these structural properties**, enabling informed decisions before downstream PRS aggregation.
+This module focuses on **structural comparison**, not predictive performance, by answering:
 
----
+- How many SNPs does each PRS contain?
+- How much SNP overlap exists across PRS?
+- How many SNPs fall within known genes?
+- How much gene-level overlap exists when considering regulatory flanks?
 
-## 2. Input Data
+These summaries provide **critical context** for downstream PRS selection and aggregation.
+
+
+## Input Data
 
 ### PRS score files
 - Harmonized PRS score files downloaded from the **PRS Catalog**
@@ -42,19 +44,7 @@ CAD/
 T2D/
  ```
 
-## Why Summarization Comes First
 
-Multiple PRS often exist for the same phenotype, developed by different studies using different cohorts and methods.  
-Although these PRS are often treated as interchangeable, their **underlying variant composition can differ substantially**.
-
-This module focuses on **structural comparison**, not predictive performance, by answering:
-
-- How many SNPs does each PRS contain?
-- How much SNP overlap exists across PRS?
-- How many SNPs fall within known genes?
-- How much gene-level overlap exists when considering regulatory flanks?
-
-These summaries provide **critical context** for downstream PRS selection and aggregation.
 
 ---
 
