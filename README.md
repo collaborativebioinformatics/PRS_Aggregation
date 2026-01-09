@@ -2,7 +2,8 @@
 Visual Exploration and Structural Comparison of Polygenic Risk Scores for Aggregation
 
 ## Overview Diagram
-[PRS_Aggretator_flowchart.pdf](https://github.com/user-attachments/files/24532851/PRS_Aggretator_flowchart.pdf)
+
+<img width="1271" height="768" alt="Screenshot 2026-01-09 at 1 13 52 PM" src="https://github.com/user-attachments/assets/51fc26c9-5789-4493-8605-cdcbbd0546bb" />
 
 
 
