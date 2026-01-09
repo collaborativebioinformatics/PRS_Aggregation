@@ -24,30 +24,6 @@ This module focuses on **structural comparison**, not predictive performance, by
 These summaries provide **critical context** for downstream PRS selection and aggregation.
 
 
-## Input Data
-
-### PRS score files
-- Harmonized PRS score files downloaded from the **PGS Catalog** [https://www.pgscatalog.org]
-- Genome build: **GRCh37**
-- SNPs represented in `chr:pos` format
-
-Example input files:
-- `PGS000012_hmPOS_GRCh37.txt.gz`
-- `PGS000116_hmPOS_GRCh37.txt.gz`
-- `PGS000747_hmPOS_GRCh37.txt.gz`
-
-### Phenotype-specific organization
-PRSs are grouped by phenotype, e.g.:
-
-```text
-CAD/
-T2D/
- ```
-
-
-
----
-
 ## What This Module Does
 
 Given two or more harmonized PRS files, this pipeline:
@@ -56,24 +32,8 @@ Given two or more harmonized PRS files, this pipeline:
 2. Computes SNP- and gene-level summary statistics per PRS  
 3. Maps SNPs to genes using gene bodies and optional flanking windows  
 4. Visualizes overlap across PRS using UpSet plots  
-5. Generates publication-ready tables and figures  
+5. Generates publication-ready tables and figures
 
----
-
-## Input Requirements
-
-This module assumes **harmonized PRS inputs**, such as those from the PGS Catalog.
-
-Each input file **must include** the following columns:
-
-- `hm_chr` — chromosome (numeric, no `chr` prefix)
-- `hm_pos` — base-pair position (GRCh37 / hg19)
-  
-Additional columns may be present but are not required for summarization.
-
-> ⚠️ All PRS compared together must use the **same genome build**.
-
----
 
 ## How It Works (High-Level)
 
@@ -93,7 +53,35 @@ The pipeline performs three levels of summarization:
 - Presence/absence matrices
 - UpSet visualizations for SNP and gene overlap
 
----
+- 
+
+## Input Data
+
+### PRS score files
+- Harmonized PRS score files downloaded from the **PGS Catalog** [https://www.pgscatalog.org]
+- Genome build: **GRCh37**
+- SNPs represented in `chr:pos` format
+
+
+Each input file **must include** the following columns:
+
+- `hm_chr` — chromosome (numeric, no `chr` prefix)
+- `hm_pos` — base-pair position (GRCh37 / hg19)
+
+
+Example input files:
+- `PGS000012_hmPOS_GRCh37.txt.gz`
+- `PGS000116_hmPOS_GRCh37.txt.gz`
+- `PGS000747_hmPOS_GRCh37.txt.gz`
+
+### Phenotype-specific organization
+PRSs are grouped by phenotype, e.g.:
+
+```text
+CAD/
+T2D/
+ ```
+
 
 ## Running the Pipeline
 
