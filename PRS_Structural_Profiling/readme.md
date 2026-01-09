@@ -8,6 +8,40 @@ The goal of this track is to answer a fundamental question:
 
 ---
 
+## 1. Objective
+
+Different PRSs for the same phenotype are often derived from different studies, populations, and modeling strategies.
+As a result, they may vary substantially in:
+
+- SNP composition
+- Genomic distribution
+- Gene-level coverage
+- Overlap across scores
+
+The goal of this module is to **systematically summarize and visualize these structural properties**, enabling informed decisions before downstream PRS aggregation.
+
+---
+
+## 2. Input Data
+
+### PRS score files
+- Harmonized PRS score files downloaded from the **PRS Catalog**
+- Genome build: **GRCh37**
+- SNPs represented in `chr:pos` format
+
+Example input files:
+- `PGS000012_hmPOS_GRCh37.txt.gz`
+- `PGS000116_hmPOS_GRCh37.txt.gz`
+- `PGS000747_hmPOS_GRCh37.txt.gz`
+
+### Phenotype-specific organization
+PRSs are grouped by phenotype, e.g.:
+
+```text
+CAD/
+T2D/
+ ```
+
 ## Why Summarization Comes First
 
 Multiple PRS often exist for the same phenotype, developed by different studies using different cohorts and methods.  
