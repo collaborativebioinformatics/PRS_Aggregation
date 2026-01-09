@@ -1,4 +1,7 @@
+__pycache__/
 synthetic_data/
 data/
 venv/
+*/venv/
 .DS_Store
+
