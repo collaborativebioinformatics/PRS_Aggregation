@@ -9,6 +9,7 @@ Visual Exploration and Structural Comparison of Polygenic Risk Scores for Aggreg
 
 ## Background
 Polygenic Risk Scores (PRS) are widely used to estimate genetic susceptibility to complex diseases. For many common traits and diseases, multiple PRS have been developed by different studies using diverse cohorts, methodologies, and SNP selection strategies.
+
 Although the PGS Catalog provides harmonized PRS data, researchers still lack practical tools to compare multiple PRS at the structural level and to understand how these scores relate to one another before downstream use.
 
 ## Motivation
@@ -35,11 +36,22 @@ Specifically,our project contains three main part:
 Detailed information locates under `/PRS_Structural_Profiling/`
 
 ### Motivation
+
+This module provides a reproducible pipeline to **summarize and structurally compare multiple polygenic risk scores (PRS)** prior to aggregation.
+
+The goal of this track is to answer a fundamental question:
+
+> **Before aggregating PRS, how similar are they—at the SNP and gene levels?**
+
+
+
 ### Methods
 
 #### input file format
 
 PRS score files downloaded from the **PGS Catalog** [https://www.pgscatalog.org], with Genome build: **GRCh37**
+
+
 Each input file **must include** the following columns:
 
 - `hm_chr` — chromosome (numeric, no `chr` prefix)
@@ -66,9 +78,14 @@ We used Type 2 Diabetes as an example and we took 3 PGS scores overall.
 | PGS000804 | 578 | 342 | 366 | 496 | 1,183 |
 | PGS001818 | 30,745 | 14,137 | 5,084 | 21,379 | 12,805 |
  
+#### UpSet plot (SNP overlap)
 
+<img width="3000" height="2100" alt="upset_snp" src="https://github.com/user-attachments/assets/f27e6751-4a34-46e0-bad2-523e92a18b45" />
 
-<img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
+#### UpSet plot (Gene overlap)
+
+<img width="3000" height="2100" alt="upset_gene" src="https://github.com/user-attachments/assets/05f53a89-5a9a-4a35-9bd8-c2d131563106" />
+
 
 ## 2 PRS Locus Viewer
 
