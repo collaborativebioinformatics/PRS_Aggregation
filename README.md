@@ -32,7 +32,7 @@ Specifically,our project contains three main part:
 - **PRS Locus Viewer**: Enable an interactive tool to explore of SNPs and genes in genomic context
 - **PRS Federated Presentations**: Establish an representation tool to visualize PRS scores across ancestry and different locations.
 
-## PRS Profiling
+## 1 PRS Profiling
 
 
 ### Motivation
@@ -40,7 +40,7 @@ Specifically,our project contains three main part:
 ### Results
 <img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
 
-## PRS Locus Viewer
+## 2 PRS Locus Viewer
 
 
 ### Motivation
@@ -49,7 +49,7 @@ Specifically,our project contains three main part:
 
 <img width="1068" height="561" alt="Screenshot 2026-01-08 at 11 41 16" src="https://github.com/user-attachments/assets/c0c668e8-7580-499f-a8ae-d0eac87d3d3b" />
 
-## Federated Learning/Representation
+## 3 Federated Learning/Representation
 ### Motivation
 ### Methods
 ### Results
