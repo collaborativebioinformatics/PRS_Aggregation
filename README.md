@@ -1,4 +1,6 @@
 # PRSAggregator
+<img width="199" height="174" alt="Screenshot_2026-01-09_at_12 38 40_PM" src="https://github.com/user-attachments/assets/a72ff355-cc04-44e7-ae2f-55d471949d11" />
+
 Visual Exploration and Structural Comparison of Polygenic Risk Scores for Aggregation
 
 ## Overview Diagram
