@@ -135,6 +135,7 @@ These embeddings are interpreted through the lens of:
 
 The entire pipeline naturally aligns with a **federated learning perspective**, where each PGS acts as a client and shared vs ancestry-specific signals emerge from the learned representations.
 
+Folder: https://github.com/collaborativebioinformatics/PRSAggretator/tree/main/Federated%20Representation
 ---
 ### Methods and Results
 ### 1. Data Harmonization & Feature Construction
