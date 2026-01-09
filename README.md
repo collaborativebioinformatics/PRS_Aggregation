@@ -161,13 +161,13 @@ Learn compact embeddings that capture how each PGS distributes genetic risk acro
 - Encoder:
 - Dense projection (sparse → latent)
 - Nonlinear activation
-  Decoder:
-- Reconstructs original PGS risk profile
-  Loss:
-- Masked reconstruction loss (emphasizes non-zero effects)
-  Evaluation:
-- Train/test split
-- Cosine similarity in input space
+- Decoder:
+  - Reconstructs original PGS risk profile
+- Loss:
+  - Masked reconstruction loss (emphasizes non-zero effects)
+- Evaluation:
+  - Train/test split
+  - Cosine similarity in input space
 
 **Output:**  
 - One embedding per PGS representing:
