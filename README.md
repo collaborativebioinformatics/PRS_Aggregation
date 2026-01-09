@@ -33,7 +33,7 @@ Specifically,our project contains three main part:
 - **PRS Federated Representation**: Establish an representation learning approach for PRS scores across ancestry and trait from different studies.
 
 ## 1 PRS Profiling
-
+Detailed information locates under `/PRS_Structural_Profiling/`
 
 ### Motivation
 ### Methods
