@@ -24,12 +24,11 @@ Aggregating multiple PRS has the potential to improve robustness and generalizab
 
 This project provides a framework to **summarize, visualize, and explore overlap among multiple PRS** using harmonized data from the PGS Catalog.
 
-Specifically, we:
+Specifically,our project contains three main part:
 
-- Build a wrapper pipeline to summarize SNP- and gene-level information across multiple PRS  
-- Generate summary statistics (e.g. number of SNPs per PRS, shared variants)  
-- Visualize overlaps using UpSet plots  
-- Enable interactive exploration of SNPs and genes in genomic context
+- Build a wrapper pipeline ***PRS Profiling*** to summarize SNP- and gene-level information across multiple PRS. And visualize using Upset Plot. 
+- Enable a interactive tool ***PRS Locus Viewer*** exploration of SNPs and genes in genomic context
+- Establish an represetation tool ***PRS Federated Presentations*** to visualize PRS scores across ancestry and different locations.
 
 
 ## Key Features
