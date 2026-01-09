@@ -80,11 +80,11 @@ We used Type 2 Diabetes as an example and we took 3 PGS scores overall.
  
 #### UpSet plot (SNP overlap)
 
-<img width="2000" height="1400" alt="upset_snp" src="https://github.com/user-attachments/assets/f27e6751-4a34-46e0-bad2-523e92a18b45" />
+<img width="1333" height="933" alt="upset_snp" src="https://github.com/user-attachments/assets/f27e6751-4a34-46e0-bad2-523e92a18b45" />
 
 #### UpSet plot (Gene overlap)
 
-<img width="2000" height="1400" alt="upset_gene" src="https://github.com/user-attachments/assets/05f53a89-5a9a-4a35-9bd8-c2d131563106" />
+<img width="1333" height="933" alt="upset_gene" src="https://github.com/user-attachments/assets/05f53a89-5a9a-4a35-9bd8-c2d131563106" />
 
 
 ## 2. PRS Locus Viewer
