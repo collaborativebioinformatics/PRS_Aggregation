@@ -103,7 +103,7 @@ A **representation learning framework for Polygenic Risk Scores (PGS)** that ena
 
 The framework:
 
-<img width="820" height="434" alt="Screenshot 2026-01-09 at 2 00 38 PM" src="https://github.com/user-attachments/assets/2ddd00bb-17d7-42f7-aa28-a3de3f8c57d4" />
+<img width="1059" height="460" alt="Screenshot 2026-01-09 at 2 03 20 PM" src="https://github.com/user-attachments/assets/e2681e2d-1d03-442b-b996-44549c453bb0" />
 
 
 - Integrates **heterogeneous PGS scoring files** across ancestries and studies  
