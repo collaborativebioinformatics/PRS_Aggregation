@@ -111,6 +111,8 @@ https://github.com/user-attachments/assets/ca03658e-40a3-4131-bc47-76983fa42800
 ## 3. Federated Representation Learning for Polygenic Risk Scores
 ### Motivation
 
+Folder: https://github.com/collaborativebioinformatics/PRSAggretator/tree/main/Federated%20Representation
+
 A **representation learning framework for Polygenic Risk Scores (PGS)** that enables systematic analysis of genetic architecture across ancestries and studies, without requiring individual-level genotype data.
 
 The framework:
@@ -135,7 +137,7 @@ These embeddings are interpreted through the lens of:
 
 The entire pipeline naturally aligns with a **federated learning perspective**, where each PGS acts as a client and shared vs ancestry-specific signals emerge from the learned representations.
 
-Folder: https://github.com/collaborativebioinformatics/PRSAggretator/tree/main/Federated%20Representation
+
 ---
 ### Methods and Results
 ### 1. Data Harmonization & Feature Construction
