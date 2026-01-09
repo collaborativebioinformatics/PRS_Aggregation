@@ -114,3 +114,8 @@ Dash is running on http://127.0.0.1:8050/
 Once the server is ready, open your web browser and navigate to `http://127.0.0.1:8050/` to start using the tool.
 
 ## Interactive Preview
+
+
+https://github.com/user-attachments/assets/9d0be08c-5592-4b8e-9200-498b36715900
+
+
