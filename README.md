@@ -3,8 +3,6 @@
 
 Visual Exploration and Structural Comparison of Polygenic Risk Scores for Aggregation
 
-<img width="676" height="604" alt="image" src="https://github.com/user-attachments/assets/e61e5f38-789a-40b2-9f29-f958ccac34d7" />
-
 ## Overview Diagram
 <img width="1155" height="702" alt="Screenshot 2026-01-09 at 1 31 51 PM" src="https://github.com/user-attachments/assets/cd6e3d50-b70d-43fe-9956-68d94d4b41de" />
 
