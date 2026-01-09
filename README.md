@@ -1,14 +1,44 @@
 # PRSAggregator
-Polygenic Risk Score (PRS) Aggregation visualization tool in common diseases and phenotypes across databases
+Visual Exploration and Structural Comparison of Polygenic Risk Scores for Aggregation
 
 ## Overview Diagram
 
 <img width="2624" height="1600" alt="Gemini_Generated_Image_7ft1ga7ft1ga7ft1" src="https://github.com/user-attachments/assets/4dfa70f3-2da5-45e3-a58e-907b69c4b147" />
 
-## Introduction
-Polygenic risk scores (PRS) are a powerful approach for predicting an individual’s likelihood of developing a phenotype or disease and have contributed substantially to our understanding of human health. PRS models are typically developed by multiple research groups, and aggregating PRS across ancestry groups represents an important opportunity to better leverage diverse datasets.
-However, PRS data are often highly heterogeneous. For example, different PRS models may be based on distinct sets of SNPs, and SNP identifiers and formats can vary across resources. To address these challenges, we are developing a pipeline to harmonize PRS datasets across studies and generate a centralized PRS that integrates information from multiple sources.
-In this work, we utilize the PRS Catalog, which contains PRS models from a wide range of resources. We also generated visualization tools to visualize the overlapping between different scores. We will also zoom into single-nucleotide resolution to visualize the surrounding SNPs. 
+
+## Background
+Polygenic Risk Scores (PRS) are widely used to estimate genetic susceptibility to complex diseases. For many common traits and diseases, multiple PRS have been developed by different studies using diverse cohorts, methodologies, and SNP selection strategies.
+Although the PGS Catalog provides harmonized PRS data, researchers still lack practical tools to compare multiple PRS at the structural level and to understand how these scores relate to one another before downstream use.
+
+## Motivation
+
+Aggregating multiple PRS has the potential to improve robustness and generalizability. However, PRS aggregation is challenging because:
+
+- Different PRS often use partially overlapping but non-identical SNP sets  
+- Redundancy and complementarity between PRS are unclear  
+- PRS selection is often arbitrary and poorly justified  
+
+**Before aggregating PRS, it is essential to understand how they overlap and differ.**
+
+## What This Project Does
+
+This project provides a framework to **summarize, visualize, and explore overlap among multiple PRS** using harmonized data from the PGS Catalog.
+
+Specifically, we:
+
+- Build a wrapper pipeline to summarize SNP- and gene-level information across multiple PRS  
+- Generate summary statistics (e.g. number of SNPs per PRS, shared variants)  
+- Visualize overlaps using UpSet plots  
+- Enable interactive exploration of SNPs and genes in genomic context
+
+
+## Key Features
+
+- SNP-level overlap analysis across multiple PRS  
+- Gene-level overlap analysis  
+- Summary statistics for each PRS  
+- Static visualization with UpSet plots  
+- Interactive genomic exploration (UCSC Genome Browser–like zoom-in view) 
 
 ## Goals
 The project aims to create a practical, reproducible framework for aggregating polygenic risk scores (PRS) across databases, studies, and ancestry groups. 
@@ -24,6 +54,8 @@ Enable comparability and quality control, including standardized SNP identifiers
 Quantify and visualize overlap among PRS models, supporting assessment of shared vs. unique variants and model similarity.
 
 Lay groundwork for scalable aggregation strategies, specifically exploration of federated learning/representation approaches that can help integrate signals across cohorts or sites without compromising sensitive data.
+
+
 
 ## Description
 PRS are widely used to estimate an individual’s genetic predisposition to phenotypes and common diseases. However, PRS models are frequently developed by independent research groups and released through different resources (public and private), leading to significant complications in reusing and aggregating data. Complications typically include: 1) Non-overlapping or partially overlapping SNP sets 2)Inconsistent SNP identifiers (rsIDs vs. chrom:pos vs. internal IDs) 3) Variable formatting (TSV/flat files vs. Hail MatrixTable representations) 4) Divergent allele encoding and genome build conventions 5) Uneven metadata completeness and inconsistent trait definitions. We address these challenges by developing a pipeline that harmonizes PRS datasets across studies and enables the construction of a centralized PRS integrating information from multiple sources. 
