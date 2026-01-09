@@ -37,6 +37,17 @@ Specifically,our project contains three main part:
 
 ### Motivation
 ### Methods
+
+#### input file format
+
+
+#### Example Command to run the pipeline
+
+```bash
+Rscript Rscript_PRSAggregator_Summarization.R \
+  --files PGS000020_hmPOS_GRCh37.txt.gz,PGS000804_hmPOS_GRCh37.txt.gz,PGS001818_hmPOS_GRCh37.txt.gz \
+  --out results \
+  --flank 50000
 ### Results
 <img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
 
