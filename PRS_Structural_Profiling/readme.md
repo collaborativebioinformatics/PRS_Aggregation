@@ -35,7 +35,7 @@ Given two or more harmonized PRS files, this pipeline:
 5. Generates publication-ready tables and figures
 
 
-## How It Works (High-Level)
+## How It Works
 
 The pipeline performs three levels of summarization:
 
@@ -51,9 +51,7 @@ The pipeline performs three levels of summarization:
 
 ### 3. Cross-PRS Comparison
 - Presence/absence matrices
-- UpSet visualizations for SNP and gene overlap
-
-- 
+- UpSet Plot visualizations for SNP and gene overlap
 
 ## Input Data
 
