@@ -45,10 +45,8 @@ The project aims to create a practical, reproducible framework for aggregating p
 
 Specifically, we will:
 
-- Aggregate PRS models across resources to produce a centralized, integrated PRS representation for common diseases and phenotypes.
-
+- Aggregate PRS models across resources to produce a centralized, integrated PRS representation for common diseases and phenotypes
 - Harmonize heterogeneous PRS inputs (differing SNP sets, identifier conventions, file formats, and metadata schemas) into a consistent, comparable structure.
-
 - Enable comparability and quality control, including standardized SNP identifiers, allele alignment checks, coordinate normalization, and consistent weight representation.
 
 - Quantify and visualize overlap among PRS models, supporting assessment of shared vs. unique variants and model similarity.
