@@ -247,6 +247,8 @@ This framework enables **privacy-preserving, interpretable analysis of genetic a
 
 ## Future directions
 
+Future work should scale the framework beyond a small set of T2D scores to broader disease areas and a larger, more diverse set of ancestries and traits, enabling more robust conclusions about cross-phenotype and cross-population sharing. Methodologically, harmonization can be strengthened by incorporating stricter allele alignment and quality controls, LD-aware locus grouping when appropriate, and expanded functional annotations (e.g., regulatory elements, eQTL links, pathway context) to improve interpretability of variant embeddings. A key next step is to connect “structural similarity” to “predictive behavior” by benchmarking whether embedding proximity and overlap metrics correlate with external performance measures, calibration, and generalizability, including evaluation of ensemble and aggregation strategies informed by these representations. From a federated learning perspective, the client-like abstraction can be extended to institution or biobank level deployments where sharing is restricted, using privacy preserving summaries and standardized outputs to enable cross site comparison without centralizing sensitive data. The locus viewer and profiling pipeline can evolve into a more automated, end-to-end toolkit with reproducible configuration, phenotype centric organization, and a web enabled interface that reduces manual file handling while preserving local execution options for restricted environments.
+
 ## Initial Workflow
 <img width="1128" height="633" alt="Screenshot 2026-01-08 at 12 41 09 PM" src="https://github.com/user-attachments/assets/6b59ed8e-de1e-47aa-8bf6-941dc2c11170" />
 
