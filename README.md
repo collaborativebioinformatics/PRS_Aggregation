@@ -57,6 +57,18 @@ Rscript Rscript_PRSAggregator_Summarization.R \
 ```
 
 ### Results
+We used Type 2 Diabetes as an example and we took 3 PGS scores overall. 
+
+#### Structural summary of PRSs for Type 2 Diabetes (T2D)
+
+| PRS ID | # SNPs | SNPs within genes | # Genes (genic) | SNPs within ±50kb | # Genes (±50kb) |
+|------|-------:|------------------:|----------------:|------------------:|----------------:|
+| PGS000020 | 7,502 | 3,541 | 2,735 | 5,227 | 7,624 |
+| PGS000804 | 578 | 342 | 366 | 496 | 1,183 |
+| PGS001818 | 30,745 | 14,137 | 5,084 | 21,379 | 12,805 |
+ 
+
+
 <img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
 
 ## 2 PRS Locus Viewer
