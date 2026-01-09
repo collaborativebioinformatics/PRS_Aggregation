@@ -1,0 +1,12 @@
+name: prs_viewer
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python>=3.9
+  - pandas
+  - dash
+  - requests
+  - pyranges
+  - pip
