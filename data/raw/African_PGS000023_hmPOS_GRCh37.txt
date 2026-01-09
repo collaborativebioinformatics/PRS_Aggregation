@@ -1,0 +1,27 @@
+###PGS CATALOG SCORING FILE - see https://www.pgscatalog.org/downloads/#dl_ftp_scoring for additional information
+#format_version=2.0
+##POLYGENIC SCORE (PGS) INFORMATION
+#pgs_id=PGS000023
+#pgs_name=AA_GRS
+#trait_reported=Type 1 diabetes (T1D)
+#trait_mapped=type 1 diabetes mellitus
+#trait_efo=MONDO_0005147
+#genome_build=NR
+#variants_number=7
+#weight_type=NR
+##SOURCE INFORMATION
+#pgp_id=PGP000013
+#citation=Onengut-Gumuscu S et al. Diabetes Care (2019). doi:10.2337/dc18-1727
+##HARMONIZATION DETAILS
+#HmPOS_build=GRCh37
+#HmPOS_date=2022-07-28
+#HmPOS_match_chr={"True": null, "False": null}
+#HmPOS_match_pos={"True": null, "False": null}
+rsID	chr_name	chr_position	effect_allele	effect_weight	allelefrequency_effect	OR	hm_source	hm_rsID	hm_chr	hm_pos	hm_inferOtherAllele
+rs9271594	6	32591213	G	1.801	0.095	6.06	ENSEMBL	rs9271594	6	32591213	A
+rs9273363	6	32626272	A	1.702	0.131	5.48	ENSEMBL	rs9273363	6	32626272	C
+rs2187668	6	32605884	T	1.367	0.076	3.93	ENSEMBL	rs2187668	6	32605884	C
+rs34303755	6	32450613	C	1.079	0.216	2.94	ENSEMBL	rs34303755	6	32450613	A
+rs34850435	6	32583299	T	0.839	0.345	2.31	ENSEMBL	rs34850435	6	32583299	C
+rs689	11	2182224	T	0.403	0.265	1.5	ENSEMBL	rs689	11	2182224	A
+rs2290400	17	38066240	C	0.295	0.459	1.34	ENSEMBL	rs2290400	17	38066240	T
