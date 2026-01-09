@@ -28,9 +28,9 @@ This project provides a framework to **summarize, visualize, and explore overlap
 
 Specifically,our project contains three main part:
 
-- Build a wrapper pipeline ***PRS Profiling*** to summarize SNP- and gene-level information across multiple PRS. And visualize using Upset Plot. 
-- Enable a interactive tool ***PRS Locus Viewer*** exploration of SNPs and genes in genomic context
-- Establish an represetation tool ***PRS Federated Presentations*** to visualize PRS scores across ancestry and different locations.
+- **PRS Profiling**: Build a wrapper pipeline to summarize SNP- and gene-level information across multiple PRS. And visualize using Upset Plot. 
+- **PRS Locus Viewer**: Enable an interactive tool to explore of SNPs and genes in genomic context
+- **PRS Federated Presentations**: Establish an representation tool to visualize PRS scores across ancestry and different locations.
 
 
 ## Key Features
