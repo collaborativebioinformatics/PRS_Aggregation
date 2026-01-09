@@ -1,5 +1,5 @@
 # PRSAggregator
-
+A modular framework for structural profiling, visualization, and aggregation of polygenic risk scores
 
 <p align="center">
   <img 
