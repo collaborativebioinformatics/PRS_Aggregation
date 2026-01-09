@@ -34,12 +34,14 @@ Specifically,our project contains three main part:
 
 ## PRS Profiling
 
+
 ### Motivation
 ### Methods
 ### Results
 <img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
 
-### PRS Locus Viewer
+## PRS Locus Viewer
+
 
 ### Motivation
 ### Methods
@@ -47,7 +49,7 @@ Specifically,our project contains three main part:
 
 <img width="1068" height="561" alt="Screenshot 2026-01-08 at 11 41 16" src="https://github.com/user-attachments/assets/c0c668e8-7580-499f-a8ae-d0eac87d3d3b" />
 
-### Federated Learning/Representation
+## Federated Learning/Representation
 ### Motivation
 ### Methods
 ### Results
