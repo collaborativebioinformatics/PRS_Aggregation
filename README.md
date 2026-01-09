@@ -80,12 +80,15 @@ We used Type 2 Diabetes as an example and we took 3 PGS scores overall.
 
 <img width="1068" height="561" alt="Screenshot 2026-01-08 at 11 41 16" src="https://github.com/user-attachments/assets/c0c668e8-7580-499f-a8ae-d0eac87d3d3b" />
 
-## 3 Federated Representation Learning for Polygenic Risk Scores
+## 3. Federated Representation Learning for Polygenic Risk Scores
 ### Motivation
 
 A **representation learning framework for Polygenic Risk Scores (PGS)** that enables systematic analysis of genetic architecture across ancestries and studies, without requiring individual-level genotype data.
 
 The framework:
+
+<img width="1056" height="486" alt="Screenshot 2026-01-09 at 1 41 40 PM" src="https://github.com/user-attachments/assets/3a7243b0-db1e-495d-82dc-54c4c94a3eca" />
+
 
 - Integrates **heterogeneous PGS scoring files** across ancestries and studies  
 - Harmonizes variants at the **locus (genomic position) level**  
@@ -107,6 +110,9 @@ The entire pipeline naturally aligns with a **federated learning perspective**, 
 ---
 ### Methods and Results
 ### 1. Data Harmonization & Feature Construction
+
+<img width="998" height="442" alt="Screenshot 2026-01-09 at 1 42 27 PM" src="https://github.com/user-attachments/assets/91a72a23-3dd0-42a9-9cf2-a494c020bd59" />
+
 
 - Parsed PGS Catalog scoring files across multiple ancestries
 - Unified heterogeneous formats (different genome builds, weight types)
@@ -145,8 +151,13 @@ Learn compact embeddings that capture how each PGS distributes genetic risk acro
 - **PCA / UMAP plots**  
   *PGS embeddings cluster by ancestry even for the same disease, highlighting population-specific genetic architectures.*
 
+<img width="892" height="691" alt="Screenshot 2026-01-09 at 1 43 22 PM" src="https://github.com/user-attachments/assets/29443c34-77de-4c20-a443-6191d3916ae0" />
+
 - **Cosine distance heatmaps**  
   *PGSs derived from similar ancestries show higher similarity in genetic risk profiles.*
+
+<img width="593" height="496" alt="Screenshot 2026-01-09 at 1 43 49 PM" src="https://github.com/user-attachments/assets/0bc960fd-2034-4148-9906-2cd82d902f10" />
+
 
 ---
 
@@ -177,19 +188,19 @@ Learn embeddings that capture how loci behave across ancestries and studies.
   - shared vs ancestry-specific behavior
 
 ### Variant-Level Embeddings
-- **Variant PCA / UMAP (colored by ancestry sharing)**  
-  *Variants shared across multiple ancestries occupy distinct regions, while ancestry-specific variants cluster tightly.*
+- **Variant PCA / UMAP **  
+<img width="947" height="761" alt="Screenshot 2026-01-09 at 1 45 22 PM" src="https://github.com/user-attachments/assets/90c117ca-87b4-4fab-a354-069d6935e98f" />
+
+<img width="947" height="761" alt="Screenshot 2026-01-09 at 1 45 37 PM" src="https://github.com/user-attachments/assets/6265e1b1-1add-49b5-b8d5-d4b094cc20ba" />
+
+<img width="947" height="761" alt="Screenshot 2026-01-09 at 1 45 56 PM" src="https://github.com/user-attachments/assets/d82385a3-7139-4966-b0c0-0cd9ea41a8e2" />
 
 - **Sharedness stratification (shared_2, shared_3, …)**  
   *Widely shared variants show structured dispersion, suggesting consistent but nuanced cross-population effects.*
+<img width="947" height="761" alt="Screenshot 2026-01-09 at 1 46 23 PM" src="https://github.com/user-attachments/assets/dc4c0fa2-e6d4-44af-9924-2ebd9cc21039" />
 
 ---
 
-### Biological Context
-- **Coloring by gene region / mutation type**  
-  *Embedding structure aligns with biological annotation, supporting interpretability.*
-
----
 ## Federated Learning Perspective
 
 - Each **PGS = client**
