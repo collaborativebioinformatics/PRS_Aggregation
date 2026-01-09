@@ -89,12 +89,18 @@ We used Type 2 Diabetes as an example and we took 3 PGS scores overall.
 
 ## 2. PRS Locus Viewer
 
+**PRS Locus Viewer** is an interactive Dash application designed for visualizing Polygenic Risk Score (PRS) variants in their genomic context. It allows researchers to inspect SNP effect sizes across multiple scoring files, map variants to nearby genes, and explore specific loci dynamically.
 
-### Motivation
-### Methods
-### Results
+#### Key Features
+- **Multi-Score Comparison:** Overlay effect weights from multiple PRS files side-by-side.
+- **Interactive Visualization:** Clickable SNP tracks with heatmap-style coloring based on effect size.
+- **Gene Mapping:** Automatically identifies and visualizes genes within a configurable window (e.g., ±25kb) of reported SNPs.
+- **Locus Zoom:** Search by rsID or Gene Symbol to zoom into specific genomic regions.
+  
+https://github.com/user-attachments/assets/ca03658e-40a3-4131-bc47-76983fa42800
 
-<img width="1068" height="561" alt="Screenshot 2026-01-08 at 11 41 16" src="https://github.com/user-attachments/assets/c0c668e8-7580-499f-a8ae-d0eac87d3d3b" />
+
+
 
 ## 3. Federated Representation Learning for Polygenic Risk Scores
 ### Motivation
