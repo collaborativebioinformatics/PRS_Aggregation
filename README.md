@@ -62,20 +62,26 @@ PRS are widely used to estimate an individual’s genetic predisposition to phen
 The initial implementation focuses on leveraging PGS Catalog (Polygenic Score Catalog) as a primary source of published PRS models and accompanying metadata and 
 GWAS Catalog as a complementary resource. In addition to harmonization and aggregation, the repository includes visual analytics to help users understand how different PRS relate at the model level and at the single-variant level. The overarching outcome is a standardized approach to aggregate different PRS across databases in a way that is transparent, extensible, and suitable for downstream analyses across diverse populations.
 
+
 ## Methods
-### PRS visualization tool (Mengying/Qianqian)
+### PRS Profiling
+### PRS Locus Viewer
+## Federated Learning / Representation
+
+
+
+## Results
+
 <img width="1068" height="561" alt="Screenshot 2026-01-08 at 11 41 16" src="https://github.com/user-attachments/assets/c0c668e8-7580-499f-a8ae-d0eac87d3d3b" />
 
+
+### PRS Locus Viewer
 <img width="790" height="460" alt="Upset_updated" src="https://github.com/user-attachments/assets/0ac3c48a-72d6-464f-a761-c5f64cd34f2c" />
 
 ## Federated Learning / Representation
 <img width="1153" height="329" alt="Screenshot 2026-01-08 at 12 44 08 PM" src="https://github.com/user-attachments/assets/b0ce0f36-14d5-4184-b004-a5097ec1f406" />
 
 <img width="1128" height="633" alt="Screenshot 2026-01-08 at 12 41 09 PM" src="https://github.com/user-attachments/assets/6b59ed8e-de1e-47aa-8bf6-941dc2c11170" />
-
-
-
-## Results 
 
 
 
